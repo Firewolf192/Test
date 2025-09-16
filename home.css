@@ -1,0 +1,295 @@
+
+.flex
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.second-flex
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.align
+{
+    text-align: center;
+}
+
+#one
+{
+    background-color: green;
+}
+
+#two
+{
+    background-color: green;
+}
+
+.header
+{
+    font-family: Impact;
+    font-size: clamp(4rem, calc(4vw + 1rem), 4rem);
+}
+
+.gap
+{
+    gap: clamp(0.1rem, calc(0.1vw + 0.5rem), 0.1rem);
+}
+
+.navigation__background
+{
+    background-color: #282A35;
+}
+
+.navigation__size
+{
+    font-size: clamp(2rem, calc(2vw + 1rem), 2rem);
+    color: aliceblue;
+}
+
+.element__background
+{
+    background-color: #282A35;
+    padding: clamp(1rem, 1vw, 1rem);
+   
+}
+
+.element__background:hover
+{
+    background-color: black;
+    cursor: pointer;
+}
+
+@media (max-width:697px) {
+    .flex{
+        display: block;
+        text-align: center;
+    }
+
+    .second-flex{
+        display: block;
+    }
+    .display__flex
+    {
+        flex-direction: column;
+    }
+    
+}
+
+#one
+{
+    background-color: green;
+}
+
+
+.position
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header__font
+{
+    font-size: clamp(1.5rem, calc(1.5vw + 1rem), 1.5rem);
+}
+
+.header__background
+{
+    background-color: #3c4b9b;
+    padding: clamp(1rem, 1vw, 1rem) clamp(1rem, 1vw, 1rem);
+    font-size: clamp(2rem, calc(2vw + 1rem), 2rem);
+    color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.text__font
+{
+    font-size: clamp(1.5rem, calc(1.5vw + 1rem), 1.5rem);
+}
+
+.article__background
+{
+    background: linear-gradient(to left, #94f894, #38fa38);
+    padding: clamp(1rem, 1vw, 1rem) clamp(1rem, 1vw, 1rem);
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
+    
+}
+
+.Pan__background
+{
+    background-color: #eeff00;
+    padding: clamp(1rem, 1vw, 1rem) clamp(1rem, 1vw, 1rem);
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.Lan__background
+{
+    background-color: #ffdd00;
+    padding: clamp(1rem, 1vw, 1rem) clamp(1rem, 1vw, 1rem);
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.Man__background
+{
+    background-color: #ffa600;
+    padding: clamp(1rem, 1vw, 1rem) clamp(1rem, 1vw, 1rem);
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.Wan__background
+{
+    background-color: #ff3c00;
+    padding: clamp(1rem, 1vw, 1rem) clamp(1rem, 1vw, 1rem);
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.margin
+{
+    margin: clamp(2rem, calc(2vw + 1rem), 2rem) clamp(2rem, calc(2vw + 1rem), 2rem);
+}
+
+#top
+{
+    background-color: green;
+}
+
+.special
+{
+    flex-direction: column;
+  
+}
+
+.center
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.header__background
+{
+    background-color: #3c4b9b;
+    padding: clamp(1rem, 1vw, 1rem) clamp(1rem, 1vw, 1rem);
+    font-size: clamp(2rem, calc(2vw + 1rem), 2rem);
+    color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.text__font
+{
+    font-size: clamp(1.5rem, calc(1.5vw + 1rem), 1.5rem);
+}
+
+.article__background
+{
+    background: linear-gradient(to left, #94f894, #38fa38);
+    padding: clamp(1rem, 1vw, 1rem) clamp(1rem, 1vw, 1rem);
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
+    
+}
+
+.magistrala__size
+{
+    width: clamp(20rem, calc(40vw + 1rem), 40rem);
+    height: clamp(20rem, calc(30vw + 1rem), 30rem);;
+}
+
+
+
+
+.display__flex
+{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.devices__background
+{
+    background-color: #ff6f00;
+    padding: clamp(1rem, 1vw, 1rem) clamp(1rem, 1vw, 1rem);
+    font-size: clamp(2rem, calc(2vw + 1rem), 2rem);
+    color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.devices__background--pictures
+{
+    background: linear-gradient(to right, blue, aqua);
+    padding: clamp(1rem, 1vw, 1rem) clamp(1rem, 1vw, 1rem);
+    font-size: clamp(2rem, calc(2vw + 1rem), 2rem);
+    color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.cable__background
+{
+    background-color: #5500ff;
+    padding: clamp(1rem, 1vw, 1rem) clamp(1rem, 1vw, 1rem);
+    font-size: clamp(2rem, calc(2vw + 1rem), 2rem);
+    color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.cable__background-swiat
+{
+    background-color: #8a4fff;
+    padding: clamp(1rem, 1vw, 1rem) clamp(1rem, 1vw, 1rem);
+    font-size: clamp(2rem, calc(2vw + 1rem), 2rem);
+    color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.cable__size
+{
+    width: clamp(15rem, calc(30vw + 1rem), 30rem);
+    height: clamp(15rem, calc(30vh + 1rem), 30rem);;
+}
+
+.cable
+{
+    border: solid 5px #00ff2f;
+    border-radius: 30px;
+}
+
+.cable__gap
+{
+    gap: clamp(3rem, calc(3vw + 1rem), 3rem);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
